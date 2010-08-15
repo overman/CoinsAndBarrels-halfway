@@ -61,7 +61,6 @@ dojo.declare('coinsAndBarrels', null, {
     },
     
     // pops up game "instructions". 
-    // @todo: should let user know what the good and bad sounds are
     _doInstructions: function() { 
         this._audio.say({text: this.instructions}).callBefore(dojo.hitch(this, function() {  
             this._loadingDialog._alreadyInitialized=true;    //so that .hide will have effect   

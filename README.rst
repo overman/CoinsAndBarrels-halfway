@@ -3,7 +3,7 @@ Coins And Barrels
 ===================
 
 :Author: Robert Overman
-:Description: Implementation that is halfway to "classic" Hark the Sound compatible. 
+:Description: Implementation that is halfway to being "classic" Hark the Sound compatible. 
 
 Overview
 =============

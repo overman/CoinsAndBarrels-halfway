@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Coins and Barrels</title> 
+    <script type="text/javascript">
+        var djConfig = {
+            isDebug: false,
+            parseOnLoad: true,
+            baseUrl: '.CoinsAndBarrels/'
+        };
+    </script>
+    <style type="text/css">
+      @import "http://ajax.googleapis.com/ajax/libs/dojo/1.5.0/dojo/resources/dojo.css";
+      @import "http://ajax.googleapis.com/ajax/libs/dojo/1.5.0/dijit/themes/claro/claro.css";
+      @import "css/main.css";
+    </style>
+	
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/dojo/1.5.0/dojo/dojo.xd.js"></script>	
+    <script type="text/javascript" src="/libs/uow/trace.js"></script>
+    <script type="text/javascript" src="/libs/uow.js"></script>	
+    <script type="text/javascript" src="application.js"></script>
+
+
+    <!-- Website Icon -->
+    <link rel="site icon" href="c&b.ico" type="image/x-icon" /> 
+	
+</head>
+<body class="claro">
+    <div class ="biggerFont" id="currentScore"><a id="ScoreString"> Your current score is: </a><a id=scoreValue>1000</a></div>
+    <div id="mainImageLocation"><img class="hidden" id="mainImage" src=""/></div>
+    <div id="creditsDialog" title="Sound Credits" dojoType="dijit.Dialog">
+        <div id="creditsText" style="width: 500px; height: 300px; overflow: auto"></div></div>
+    <button id="creditsButton" dojoType="dijit.form.Button" type="button">Sound Credits</button>
+</body>
+</html>
